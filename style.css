@@ -1,0 +1,95 @@
+html{
+	cursor: pointer;
+}
+nav a {
+color: black;
+text-decoration:none;
+padding: 10px;
+margin: 0;
+border-radius: 2px;
+height: 30px;
+border-top: 5px solid red;
+}
+nav a:hover{
+border-bottom:2px solid gray;
+}
+.small{
+margin: 0;
+background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,166,0.7),rgba(6,133,166,0.9)), url(images/cos2.jpg);
+height: 500px;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items:center;
+/*opacity: 0.7 skyblue;*/
+flex-direction: column;
+}
+.style{
+background-color: #1493b4;
+}
+.container{
+display: flex;
+padding: 50px;
+margin: 10px;
+justify-content: space-evenly;
+padding: 10px;
+text-align: center;
+}
+.flexitem {
+margin: 10px;
+text-align: center;
+justify-content: center;
+text-transform: uppercase;
+font-size: 16px;
+margin-top:-190px;
+flex: 1;
+text-align: center;
+}
+.flexitem a {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 6px;
+	width: 45%;
+	padding: 10px;
+	margin-left: 30%;
+}
+.flexitem a:hover {
+		background-color:gray;
+		opacity: 0.5;
+}
+
+
+.it1{
+ 	display: flex;
+   background:linear-gradient(rgba(95,27,14,0.89),
+	rgba(95,27,14,0.89)), url(images/cos2.jpg);
+   justify-content: center;
+   flex-direction: column;
+   color: #f1f1f1;
+   letter-spacing: 3px;
+   line-height: 20px;
+}
+.it2{
+ 	display: flex;
+   background:linear-gradient(rgba(49,67,58,0.89),
+	rgba(49,67,58,0.89)), url(images/cos2.jpg);
+   justify-content: center;
+   flex-direction: column;
+   color: #f1f1f1;
+   letter-spacing: 3px;
+   line-height: 20px;
+}
+.it3{
+ 	display: flex;
+   background:linear-gradient(rgba(11,3,47,0.89),
+	rgba(11,3,47,0.89)), url(images/cos2.jpg);
+   justify-content: center;
+   flex-direction: column;
+   color: #f1f1f1;
+   letter-spacing: 3px;
+   line-height: 20px;
+}
